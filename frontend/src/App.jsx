@@ -41,13 +41,14 @@ import {
   Pie,
   Cell
 } from "recharts";
-import { api } from "./api/client";
+import { api, isLiveBackendConnected } from "./api/client";
 
 const COLORS = ["#6366f1", "#06b6d4", "#10b981", "#f59e0b", "#f43f5e", "#a855f7"];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("analyst"); // Default to flagship AI Analyst
   const [loading, setLoading] = useState(false);
+  const [backendLive, setBackendLive] = useState(false);
   const [execKPIs, setExecKPIs] = useState(null);
   const [salesTrend, setSalesTrend] = useState([]);
   const [categoryData, setCategoryData] = useState([]);
@@ -120,10 +121,12 @@ export default function App() {
       if (dqRes.status === "fulfilled") setDataQualityLogs(dqRes.value || []);
       if (driftRes.status === "fulfilled") setModelDrift(driftRes.value);
       if (fiRes.status === "fulfilled") setChurnFeatureImportance(fiRes.value?.feature_importance || []);
+      setBackendLive(isLiveBackendConnected);
     } catch (e) {
       console.error("Dashboard data load error:", e);
     } finally {
       setLoading(false);
+      setBackendLive(isLiveBackendConnected);
     }
   };
 
@@ -246,11 +249,11 @@ export default function App() {
 
         <div className="sidebar-footer">
           <div className="system-status-pill">
-            <span className="status-dot"></span>
-            <span>FastAPI Backend: Online</span>
+            <span className="status-dot" style={{ backgroundColor: backendLive ? "#10b981" : "#06b6d4", boxShadow: backendLive ? "0 0 8px #10b981" : "0 0 8px #06b6d4" }}></span>
+            <span>{backendLive ? "FastAPI Backend: Online" : "Cloud Demo Engine: Active"}</span>
           </div>
           <div style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>
-            PostgreSQL & Star Schema Connected
+            {backendLive ? "PostgreSQL & Star Schema Connected" : "Interactive Decision AI Engine"}
           </div>
         </div>
       </aside>
@@ -278,7 +281,9 @@ export default function App() {
               <RefreshCw size={14} className={loading ? "spin" : ""} />
               <span>Refresh</span>
             </button>
-            <div className="badge badge-info">Production Ready</div>
+            <div className={`badge ${backendLive ? "badge-info" : "badge-warning"}`}>
+              {backendLive ? "Live API Connected" : "Interactive Demo Mode"}
+            </div>
           </div>
         </header>
 
