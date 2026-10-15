@@ -1,0 +1,22 @@
+# Netlify Build & Deployment Configuration
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Path to the directory where package.json and the frontend app reside
+  base = "frontend"
+
+  # Command to install dependencies and compile production bundle
+  command = "npm run build"
+
+  # Directory containing the compiled production assets (relative to base)
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Single-Page Application (SPA) routing fallback
+# Prevents 404 errors on deep linking or browser refresh
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
