@@ -1,0 +1,101 @@
+product_id,name,category,subcategory,retail_price,cost_price,target_margin,supplier_id,weight_kg,return_propensity,reorder_point,is_active
+PROD_0001,Smartphones Elite Series 1,Electronics,Smartphones,53720.0,42644.51,0.206,SUP_010,2.47,0.14,100,True
+PROD_0002,Smartphones Elite Series 2,Electronics,Smartphones,8700.0,7080.7,0.186,SUP_005,11.83,0.14,100,True
+PROD_0003,Smartphones Elite Series 3,Electronics,Smartphones,73140.0,58025.74,0.207,SUP_007,3.48,0.14,100,True
+PROD_0004,Smartphones Elite Series 4,Electronics,Smartphones,55130.0,46503.08,0.156,SUP_006,4.39,0.14,100,True
+PROD_0005,Laptops Elite Series 1,Electronics,Laptops,57950.0,46928.95,0.19,SUP_011,7.85,0.14,100,True
+PROD_0006,Laptops Elite Series 2,Electronics,Laptops,52950.0,45689.82,0.137,SUP_012,3.09,0.14,100,True
+PROD_0007,Laptops Elite Series 3,Electronics,Laptops,40910.0,34896.44,0.147,SUP_011,8.32,0.14,100,True
+PROD_0008,Laptops Elite Series 4,Electronics,Laptops,21010.0,17807.48,0.152,SUP_001,2.9,0.14,100,True
+PROD_0009,Audio & Headphones Elite Series 1,Electronics,Audio & Headphones,5630.0,4776.8,0.152,SUP_005,0.98,0.14,100,True
+PROD_0010,Audio & Headphones Elite Series 2,Electronics,Audio & Headphones,77880.0,64117.2,0.177,SUP_012,3.91,0.14,100,True
+PROD_0011,Audio & Headphones Elite Series 3,Electronics,Audio & Headphones,56750.0,47694.79,0.16,SUP_011,5.61,0.14,100,True
+PROD_0012,Audio & Headphones Elite Series 4,Electronics,Audio & Headphones,24720.0,21143.94,0.145,SUP_009,6.56,0.14,100,True
+PROD_0013,Smartwatches Elite Series 1,Electronics,Smartwatches,64260.0,53795.68,0.163,SUP_010,4.91,0.14,100,True
+PROD_0014,Smartwatches Elite Series 2,Electronics,Smartwatches,20980.0,16369.57,0.22,SUP_009,6.02,0.14,100,True
+PROD_0015,HyperView Ultra 4K Smart OLED (Product X),Electronics,Smartwatches,64970.0,51579.01,0.206,SUP_003,7.6,0.28,100,True
+PROD_0016,Smartwatches Elite Series 4,Electronics,Smartwatches,67950.0,56927.42,0.162,SUP_002,4.74,0.14,100,True
+PROD_0017,Cameras Elite Series 1,Electronics,Cameras,51860.0,43209.49,0.167,SUP_005,11.66,0.14,100,True
+PROD_0018,Cameras Elite Series 2,Electronics,Cameras,73580.0,64665.92,0.121,SUP_012,1.55,0.14,100,True
+PROD_0019,Cameras Elite Series 3,Electronics,Cameras,75550.0,60811.12,0.195,SUP_011,4.21,0.14,100,True
+PROD_0020,Cameras Elite Series 4,Electronics,Cameras,27070.0,23393.47,0.136,SUP_001,11.46,0.14,100,True
+PROD_0021,Men's Wear Elite Series 1,Apparel,Men's Wear,4000.0,2389.29,0.403,SUP_009,9.19,0.22,100,True
+PROD_0022,Men's Wear Elite Series 2,Apparel,Men's Wear,2530.0,1590.66,0.371,SUP_011,3.72,0.22,100,True
+PROD_0023,Men's Wear Elite Series 3,Apparel,Men's Wear,3060.0,1616.31,0.472,SUP_003,4.61,0.22,100,True
+PROD_0024,Men's Wear Elite Series 4,Apparel,Men's Wear,1150.0,528.2,0.541,SUP_009,11.04,0.22,100,True
+PROD_0025,Women's Wear Elite Series 1,Apparel,Women's Wear,2900.0,1601.61,0.448,SUP_002,11.16,0.22,100,True
+PROD_0026,Women's Wear Elite Series 2,Apparel,Women's Wear,4010.0,1939.5,0.516,SUP_005,3.03,0.22,100,True
+PROD_0027,Women's Wear Elite Series 3,Apparel,Women's Wear,1460.0,783.33,0.463,SUP_002,1.21,0.22,100,True
+PROD_0028,Women's Wear Elite Series 4,Apparel,Women's Wear,2440.0,1552.22,0.364,SUP_009,9.24,0.22,100,True
+PROD_0029,Footwear Elite Series 1,Apparel,Footwear,1010.0,560.49,0.445,SUP_009,2.15,0.22,100,True
+PROD_0030,Footwear Elite Series 2,Apparel,Footwear,2610.0,1379.86,0.471,SUP_004,11.16,0.22,100,True
+PROD_0031,Footwear Elite Series 3,Apparel,Footwear,3520.0,1802.33,0.488,SUP_012,3.88,0.22,100,True
+PROD_0032,Footwear Elite Series 4,Apparel,Footwear,4480.0,2329.71,0.48,SUP_008,10.82,0.22,100,True
+PROD_0033,Ethnic Wear Elite Series 1,Apparel,Ethnic Wear,2310.0,1386.97,0.4,SUP_002,4.19,0.22,100,True
+PROD_0034,Ethnic Wear Elite Series 2,Apparel,Ethnic Wear,2850.0,1721.33,0.396,SUP_004,0.28,0.22,100,True
+PROD_0035,Ethnic Wear Elite Series 3,Apparel,Ethnic Wear,3330.0,2125.29,0.362,SUP_002,10.88,0.22,100,True
+PROD_0036,Ethnic Wear Elite Series 4,Apparel,Ethnic Wear,3940.0,2505.16,0.364,SUP_004,3.49,0.22,100,True
+PROD_0037,Activewear Elite Series 1,Apparel,Activewear,2440.0,1322.85,0.458,SUP_012,11.24,0.22,100,True
+PROD_0038,Activewear Elite Series 2,Apparel,Activewear,2780.0,1544.19,0.445,SUP_008,9.73,0.22,100,True
+PROD_0039,Activewear Elite Series 3,Apparel,Activewear,1260.0,794.57,0.369,SUP_007,4.38,0.22,100,True
+PROD_0040,Activewear Elite Series 4,Apparel,Activewear,2140.0,1021.28,0.523,SUP_001,8.15,0.22,100,True
+PROD_0041,Cookware Elite Series 1,Home & Kitchen,Cookware,14780.0,10394.32,0.297,SUP_007,8.79,0.08,100,True
+PROD_0042,Cookware Elite Series 2,Home & Kitchen,Cookware,12170.0,8536.33,0.299,SUP_004,2.44,0.08,100,True
+PROD_0043,Cookware Elite Series 3,Home & Kitchen,Cookware,7170.0,4648.17,0.352,SUP_005,5.66,0.08,100,True
+PROD_0044,Cookware Elite Series 4,Home & Kitchen,Cookware,13220.0,9348.98,0.293,SUP_009,1.36,0.08,100,True
+PROD_0045,Home Decor Elite Series 1,Home & Kitchen,Home Decor,10060.0,6318.69,0.372,SUP_001,11.63,0.08,100,True
+PROD_0046,Home Decor Elite Series 2,Home & Kitchen,Home Decor,13950.0,8031.32,0.424,SUP_003,5.0,0.08,100,True
+PROD_0047,Home Decor Elite Series 3,Home & Kitchen,Home Decor,7640.0,4377.79,0.427,SUP_001,2.14,0.08,100,True
+PROD_0048,Home Decor Elite Series 4,Home & Kitchen,Home Decor,830.0,542.51,0.346,SUP_008,3.57,0.08,100,True
+PROD_0049,Small Appliances Elite Series 1,Home & Kitchen,Small Appliances,10690.0,6369.25,0.404,SUP_009,8.01,0.08,100,True
+PROD_0050,Small Appliances Elite Series 2,Home & Kitchen,Small Appliances,7710.0,5302.3,0.312,SUP_004,11.63,0.08,100,True
+PROD_0051,Small Appliances Elite Series 3,Home & Kitchen,Small Appliances,9020.0,5663.0,0.372,SUP_012,3.9,0.08,100,True
+PROD_0052,Small Appliances Elite Series 4,Home & Kitchen,Small Appliances,1510.0,964.81,0.361,SUP_009,2.06,0.08,100,True
+PROD_0053,Bedding Elite Series 1,Home & Kitchen,Bedding,14440.0,10200.14,0.294,SUP_003,1.01,0.08,100,True
+PROD_0054,Bedding Elite Series 2,Home & Kitchen,Bedding,1770.0,1015.08,0.427,SUP_007,1.61,0.08,100,True
+PROD_0055,Bedding Elite Series 3,Home & Kitchen,Bedding,13440.0,9114.25,0.322,SUP_010,0.67,0.08,100,True
+PROD_0056,Bedding Elite Series 4,Home & Kitchen,Bedding,1960.0,1192.16,0.392,SUP_010,6.37,0.08,100,True
+PROD_0057,Furniture Elite Series 1,Home & Kitchen,Furniture,14070.0,9641.83,0.315,SUP_012,3.91,0.08,100,True
+PROD_0058,Furniture Elite Series 2,Home & Kitchen,Furniture,4570.0,3188.72,0.302,SUP_011,3.74,0.08,100,True
+PROD_0059,Furniture Elite Series 3,Home & Kitchen,Furniture,5290.0,3132.65,0.408,SUP_002,0.31,0.08,100,True
+PROD_0060,Furniture Elite Series 4,Home & Kitchen,Furniture,9620.0,6005.68,0.376,SUP_002,1.06,0.08,100,True
+PROD_0061,Skincare Elite Series 1,Beauty & Personal Care,Skincare,980.0,487.02,0.503,SUP_006,10.59,0.04,100,True
+PROD_0062,Skincare Elite Series 2,Beauty & Personal Care,Skincare,3110.0,1480.65,0.524,SUP_003,5.37,0.04,100,True
+PROD_0063,Skincare Elite Series 3,Beauty & Personal Care,Skincare,2040.0,998.57,0.511,SUP_011,6.44,0.04,100,True
+PROD_0064,Skincare Elite Series 4,Beauty & Personal Care,Skincare,2440.0,1071.35,0.561,SUP_011,1.42,0.04,100,True
+PROD_0065,Haircare Elite Series 1,Beauty & Personal Care,Haircare,3110.0,1546.0,0.503,SUP_002,8.96,0.04,100,True
+PROD_0066,Haircare Elite Series 2,Beauty & Personal Care,Haircare,800.0,394.92,0.506,SUP_004,8.67,0.04,100,True
+PROD_0067,Haircare Elite Series 3,Beauty & Personal Care,Haircare,950.0,401.99,0.577,SUP_005,6.16,0.04,100,True
+PROD_0068,Haircare Elite Series 4,Beauty & Personal Care,Haircare,1100.0,405.21,0.632,SUP_001,1.29,0.04,100,True
+PROD_0069,Fragrances Elite Series 1,Beauty & Personal Care,Fragrances,1660.0,821.14,0.505,SUP_001,4.14,0.04,100,True
+PROD_0070,Fragrances Elite Series 2,Beauty & Personal Care,Fragrances,720.0,254.91,0.646,SUP_003,8.95,0.04,100,True
+PROD_0071,Fragrances Elite Series 3,Beauty & Personal Care,Fragrances,2070.0,961.44,0.536,SUP_001,1.52,0.04,100,True
+PROD_0072,Fragrances Elite Series 4,Beauty & Personal Care,Fragrances,3320.0,1367.16,0.588,SUP_003,6.64,0.04,100,True
+PROD_0073,Cosmetics Elite Series 1,Beauty & Personal Care,Cosmetics,2970.0,1287.49,0.567,SUP_003,5.27,0.04,100,True
+PROD_0074,Cosmetics Elite Series 2,Beauty & Personal Care,Cosmetics,430.0,205.14,0.523,SUP_001,10.81,0.04,100,True
+PROD_0075,Cosmetics Elite Series 3,Beauty & Personal Care,Cosmetics,970.0,485.09,0.5,SUP_002,4.37,0.04,100,True
+PROD_0076,Cosmetics Elite Series 4,Beauty & Personal Care,Cosmetics,2090.0,783.87,0.625,SUP_010,9.04,0.04,100,True
+PROD_0077,Wellness Elite Series 1,Beauty & Personal Care,Wellness,3260.0,1638.65,0.497,SUP_003,11.72,0.04,100,True
+PROD_0078,Wellness Elite Series 2,Beauty & Personal Care,Wellness,2890.0,1080.04,0.626,SUP_001,2.32,0.04,100,True
+PROD_0079,Wellness Elite Series 3,Beauty & Personal Care,Wellness,3260.0,1282.88,0.606,SUP_007,9.67,0.04,100,True
+PROD_0080,Wellness Elite Series 4,Beauty & Personal Care,Wellness,3070.0,1190.7,0.612,SUP_005,2.08,0.04,100,True
+PROD_0081,Gym Equipment Elite Series 1,Sports & Fitness,Gym Equipment,15610.0,10811.78,0.307,SUP_001,10.33,0.09,100,True
+PROD_0082,Gym Equipment Elite Series 2,Sports & Fitness,Gym Equipment,5360.0,3363.46,0.372,SUP_008,4.33,0.09,100,True
+PROD_0083,Gym Equipment Elite Series 3,Sports & Fitness,Gym Equipment,18160.0,11246.52,0.381,SUP_004,0.48,0.09,100,True
+PROD_0084,Gym Equipment Elite Series 4,Sports & Fitness,Gym Equipment,4730.0,3314.6,0.299,SUP_002,11.61,0.09,100,True
+PROD_0085,Yoga & Pilates Elite Series 1,Sports & Fitness,Yoga & Pilates,6570.0,4295.32,0.346,SUP_007,8.22,0.09,100,True
+PROD_0086,Yoga & Pilates Elite Series 2,Sports & Fitness,Yoga & Pilates,18650.0,13061.11,0.3,SUP_001,1.56,0.09,100,True
+PROD_0087,Yoga & Pilates Elite Series 3,Sports & Fitness,Yoga & Pilates,21370.0,15455.1,0.277,SUP_005,0.65,0.09,100,True
+PROD_0088,Yoga & Pilates Elite Series 4,Sports & Fitness,Yoga & Pilates,13370.0,9334.22,0.302,SUP_006,5.35,0.09,100,True
+PROD_0089,Sporting Goods Elite Series 1,Sports & Fitness,Sporting Goods,21660.0,15869.27,0.267,SUP_010,2.44,0.09,100,True
+PROD_0090,Sporting Goods Elite Series 2,Sports & Fitness,Sporting Goods,1550.0,1061.12,0.315,SUP_009,11.12,0.09,100,True
+PROD_0091,Sporting Goods Elite Series 3,Sports & Fitness,Sporting Goods,12120.0,7782.08,0.358,SUP_012,8.9,0.09,100,True
+PROD_0092,Sporting Goods Elite Series 4,Sports & Fitness,Sporting Goods,4820.0,3303.17,0.315,SUP_011,11.07,0.09,100,True
+PROD_0093,Supplements Elite Series 1,Sports & Fitness,Supplements,13940.0,9067.86,0.35,SUP_002,8.69,0.09,100,True
+PROD_0094,Supplements Elite Series 2,Sports & Fitness,Supplements,7030.0,4946.36,0.296,SUP_007,4.05,0.09,100,True
+PROD_0095,Supplements Elite Series 3,Sports & Fitness,Supplements,15520.0,10349.33,0.333,SUP_004,5.16,0.09,100,True
+PROD_0096,Supplements Elite Series 4,Sports & Fitness,Supplements,20720.0,13434.9,0.352,SUP_003,7.46,0.09,100,True
+PROD_0097,Outdoor Gear Elite Series 1,Sports & Fitness,Outdoor Gear,7040.0,4701.38,0.332,SUP_001,3.79,0.09,100,True
+PROD_0098,Outdoor Gear Elite Series 2,Sports & Fitness,Outdoor Gear,5100.0,3223.89,0.368,SUP_010,7.93,0.09,100,True
+PROD_0099,Outdoor Gear Elite Series 3,Sports & Fitness,Outdoor Gear,10550.0,7212.78,0.316,SUP_004,6.23,0.09,100,True
+PROD_0100,Outdoor Gear Elite Series 4,Sports & Fitness,Outdoor Gear,17590.0,10659.98,0.394,SUP_012,2.2,0.09,100,True

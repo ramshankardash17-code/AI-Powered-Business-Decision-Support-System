@@ -1,0 +1,6 @@
+warehouse_id,name,city,region,capacity_sqft
+WH_MUM_01,West Hub Mumbai,Mumbai,West,150000
+WH_DEL_02,North Hub Delhi,Delhi,North,180000
+WH_BLR_03,South Hub Bengaluru,Bengaluru,South,160000
+WH_KOL_04,East Hub Kolkata,Kolkata,East,110000
+WH_IND_05,Central Hub Indore,Indore,Central,90000

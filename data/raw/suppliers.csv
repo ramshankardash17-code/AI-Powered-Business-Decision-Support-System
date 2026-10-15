@@ -1,0 +1,13 @@
+supplier_id,supplier_name,contact_email,region,city,reliability_score,lead_time_days,contract_status
+SUP_001,Apex Supply Group 1,partner1@apexsupply.com,North,Delhi,0.936,6,Active
+SUP_002,Apex Supply Group 2,partner2@apexsupply.com,South,Chennai,0.935,13,Active
+SUP_003,Apex Supply Group 3,partner3@apexsupply.com,Central,Bhopal,0.904,3,Active
+SUP_004,Apex Supply Group 4,partner4@apexsupply.com,North,Delhi,0.826,11,Active
+SUP_005,Apex Supply Group 5,partner5@apexsupply.com,Central,Bhopal,0.898,14,Active
+SUP_006,Apex Supply Group 6,partner6@apexsupply.com,Central,Gwalior,0.826,12,Active
+SUP_007,Apex Supply Group 7,partner7@apexsupply.com,East,Kolkata,0.939,5,Active
+SUP_008,Apex Supply Group 8,partner8@apexsupply.com,West,Ahmedabad,0.838,6,Active
+SUP_009,Apex Supply Group 9,partner9@apexsupply.com,East,Kolkata,0.799,4,Active
+SUP_010,Apex Supply Group 10,partner10@apexsupply.com,East,Patna,0.907,3,Active
+SUP_011,Apex Supply Group 11,partner11@apexsupply.com,West,Nagpur,0.806,9,Active
+SUP_012,Apex Supply Group 12,partner12@apexsupply.com,North,Chandigarh,0.842,13,Active
