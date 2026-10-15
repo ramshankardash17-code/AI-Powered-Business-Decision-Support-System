@@ -64,19 +64,7 @@ flowchart TB
 
 ---
 
-## 2. Key Features Across Enterprise Roles
-
-| Role | Core Capabilities Demonstrated |
-| :--- | :--- |
-| **Business Analyst** | Multi-dimensional Root Cause Analysis (Time, Category, Product, Region), KPI tree decomposition, Evidence-backed recommendations with Human-in-the-Loop approval workflows. |
-| **Data Analyst** | Star schema dimensional modeling (Kimball), automated data quality audits (100% score), 30+ production DAX formulas, Power BI 10-page specification, time-intelligence (MoM, YoY). |
-| **Data Scientist** | Customer churn classification (XGBoost, Random Forest, Logistic Regression), RFM K-Means customer segmentation, Gradient Boosting CLV modeling, Isolation Forest anomaly detection. |
-| **AI / ML Engineer** | PyTorch LSTM sequence demand model (30-day sequence lookback) benchmarked against Ridge regression & moving averages; model drift tracking (Population Stability Index - PSI) & KS-test feature drift monitoring. |
-| **GenAI Engineer** | Safe Text-to-SQL generation with DDL/DML injection prevention, Grounded RAG knowledge retriever with document citations, Multi-Agent workflow orchestration (Planner, SQL, ML, Forecast, RAG, Insight). |
-
----
-
-## 3. Technology Stack
+## 2. Technology Stack
 
 - **Backend & Core Engine**: Python 3.11+, FastAPI, Uvicorn, Pydantic v2
 - **Database & Storage**: PostgreSQL (Primary) + SQLite (Automated Local Fallback), SQLAlchemy 2.0, Psycopg2
@@ -89,7 +77,7 @@ flowchart TB
 
 ---
 
-## 4. Database Architecture & Star Schema
+## 3. Database Architecture & Star Schema
 
 The database supports both PostgreSQL and automated local SQLite fallback.
 
@@ -115,7 +103,7 @@ The database supports both PostgreSQL and automated local SQLite fallback.
 
 ---
 
-## 5. Machine Learning & Deep Learning Benchmarks
+## 4. Machine Learning & Deep Learning Benchmarks
 
 ### Customer Churn Prediction
 - **Candidates Evaluated**: Logistic Regression, Random Forest Classifier, XGBoost Classifier
@@ -135,7 +123,7 @@ The database supports both PostgreSQL and automated local SQLite fallback.
 
 ---
 
-## 6. Safe Text-to-SQL & Multi-Agent Workflow
+## 5. Safe Text-to-SQL & Multi-Agent Workflow
 
 When a manager asks:
 > *"Why did profit decrease last month, which customers are at risk, and what should we do?"*
@@ -161,7 +149,7 @@ The system executes the following 12-step coordinated workflow:
 
 ---
 
-## 7. Installation & Quickstart
+## 6. Installation & Quickstart
 
 ### Prerequisites
 - Python 3.10+ (Tested on Python 3.11, 3.12, 3.14)
@@ -221,7 +209,7 @@ Open your browser at `http://localhost:5173` to interact with the Decision Intel
 
 ---
 
-## 8. Power BI Analytics Layer
+## 7. Power BI Analytics Layer
 
 The repository includes a production Power BI integration guide in `powerbi/POWER_BI_DASHBOARD_SPEC.md`, containing:
 - Star schema relationship configurations
@@ -231,7 +219,7 @@ The repository includes a production Power BI integration guide in `powerbi/POWE
 
 ---
 
-## 9. Security, Governance & Auditability
+## 8. Security, Governance & Auditability
 
 - **Zero Database Modification**: AI SQL generation is strictly restricted to read-only `SELECT` statements. Regex/AST safety rules block `DROP`, `DELETE`, `TRUNCATE`, `ALTER`, `UPDATE`, and `INSERT`.
 - **Zero Numerical Hallucination**: All numbers presented in executive summaries originate directly from database queries, model predictions, or verified documents.
@@ -240,7 +228,7 @@ The repository includes a production Power BI integration guide in `powerbi/POWE
 
 ---
 
-## 10. Repository Structure
+## 9. Repository Structure
 
 ```
 enterprise-ai-platform/
@@ -318,5 +306,5 @@ enterprise-ai-platform/
 
 ---
 
-## 11. License & Acknowledgments
+## 10. License & Acknowledgments
 Licensed under the MIT License. Designed and engineered as a benchmark portfolio demonstration for advanced Analytics, Data Science, and AI Engineering.
